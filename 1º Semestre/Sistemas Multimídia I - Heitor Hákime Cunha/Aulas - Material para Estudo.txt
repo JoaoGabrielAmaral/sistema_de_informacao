@@ -1,0 +1,124 @@
+Aula 2 - 2016-02-15
+
+Definição de Sistemas Multimídia
+
+Imagens: Definição, características, conceitos e formatos
+ Vídeos: Definição, características, conceitos e formatos
+ Áudios: Definição, características, conceitos e formatos
+
+      HTML: Tags, listas, links e tabelas
+       CSS: Conceitos e aplicações
+JavaScript: Visão geral e algumas aplicações
+
+-----------------------------------------------------------------------------------------------------------
+
+Informação = VALOR + CONTEXTO + REPRESENTAÇÃO
+
+EX: Diogo tem 11 anos
+
+• Diogo tem três anos. Por questões didáticas foi usado o sistema de numeração binária
+• Poderiam ser utilizados outros sistemas: 3, Três, III
+
+-----------------------------------------------------------------------------------------------------------
+
+Mídia: São estruturas que carregam informação, como por exemplo áudio, vídeo ou imagens,
+       são classificadas em estáticas (não dependem do tempo) e dinâmicas (dependem do tempo).
+
+-----------------------------------------------------------------------------------------------------------
+
+Sistema Multimídia: Sistema Computacional capaz de manipular dados alfanuméricos, gráficos, áudio e vídeo,
+					capaz de tratar pelo menos um tipo de mídia contínua em formato digital.
+
+___________________________________________________________________________________________________________
+
+Aula 2 - 2016-02-22
+
+Áudio - Funções comum: Capturar; Gerar; Armazenar; Recuperar; Processar; Transmitir; Apresentar
+
+Frequência: Ondas por segundo /\/ (1Hz)
+ Amplitude: Altura da onda
+
+___________________________________________________________________________________________________________
+
+Aula 3 - 2016-02-29
+
+Captura: Onde sonora é convertida em sinal analógico (elétrico) através de um microfone
+
+(first question da prova)
+Digitalização: ocorre em 3 etapas:
+   - Amostragem (sampling) 
+      • Pegar pontos/tempo do som
+      • Taxa de amostragem: EX - 13 pontos por segundo (13Hz)
+      
+      Teorema de Nyquist: 
+         A frequência mínima de amostragem escolhida deve ser 2 * (frequência máxima do sinal).
+         Caso contrário, teremos o fenômeno conhecido como ALIASING
+
+   - Quantização (quantization)
+      • Transformar em faixas
+
+   - Codificação (coding)
+      • Transformar em binário (utilizando faixas)
+         A = 00 | B = 01 | C = 10 | D = 11
+         C  D  D  C  C  B  A  B  C
+         10 11 11 10 10 01 00 01 10
+     
+-----------------------------------------------------------------------------------------------------------
+
+1 minuto de áudio
+
+	11 Khz, 8 bits/amostra, mono:
+
+	11.000 Hz * 8 bits * 1 Canal * 60 = 5.280.000 bits (/8)
+	                                    660.000 bytes  (/1024)
+	                                    644,5 KBytes
+
+    44 Khz, 16 bits, estério:
+
+    44.000 Hz * 16 * 2 * 60 = 84.480.000 bits (/8)
+                              10.560.000 bytes (/1024)
+                              10.312,5 KBytes (/1024)
+                              10 MBytes
+
+CD e Rádio FM = estério
+Rádio AM e Telefone = mono
+
+CD:
+   44.000 Hz * 16 * 2 * 60 = 84.480.000 bits (/8)
+                             10.560.000 bytes (/1024)
+                             10.312,5 KBytes (/1024)
+                             10 MBytes
+   Banda: 8.448.000 bits (/8 /1024 /1024) = 1,4 MBytes
+
+
+Rádio FM:
+   32.000 Hz * 16 * 2 * 60 = 61.440.000 bits (/8)
+	                          7.680.000 bytes (/1024)
+	                          7.500 KBytes (/1024)
+	                          7,3 MBytes
+   Banda: 1.024.000 bits (/8 /1024 /1024) = 1MBytes
+
+Rádio AM:
+   22.000 * 12 * 60 = 15.840.000 bits (/8)
+                      1.980.000 bytes (/1024)
+                      1.933,5 KBytes (/1024)
+                      1,8 MBytes
+   Banda: 264.000 bits (/8 /1024) = 32,2 Kbytes
+
+Telefone:
+   8.000 * 8 * 60 = 3.840.000 bits (/8)
+                    480.000 bytes (/1024)
+                    468,75 KBytes (/1024)
+                    0,45 MBytes
+   Banda: 64.000 bits (/8 /1024) = 7,8 K Bytes
+
+EX Fórmula em MBytes = (32.000 Hz * 16 * 2 * 60) / (8 * 1024 * 1024)
+
+Exibir via Streaming em qualidade de CD: 10.7MB / 60 = 0,17MB = 182 KBytes
+
+-----------------------------------------------------------------------------------------------------------
+
+Sinal = 44 Khz (sem perdas e ótima qualidade)
+Link Upload?
+
+88000 * 16 * 2 = 2.816.000 bits por segundo (/8 /1024) = 343,75 Kbytes

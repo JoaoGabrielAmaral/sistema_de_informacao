@@ -1,0 +1,37 @@
+Aula 2016-03-01
+
+Definição de Sistemas: Sistemas são um conjunto de elementos que interagem para a realização de uma 
+                       série de objetivos de modo organizado e coordenado, como por exemplo: 
+   Automóvel - transportar passageiros e carga - subistemas: motor, caixa de marchas, suspensão;
+   Sistema digestivo
+   Sistema solar
+   Computador
+
+Definição de Sistemas de Informação:
+	Sabendo-se o que são sistemas de uma maneira genérica, como seria então os chamados
+	"Sistemas de Informação", que da nome ao curso? Para compreender melhor o que são,
+	precisamos saber a definição clara de: DADOS e INFORMAÇÃO
+
+	      DADO: 23 anos
+	INFORMAÇÃO: 23 anos de idade
+
+	DADOS: É uma cadeia de caracteres ou padrões sem interpretação. É qualquer elemento
+	       identificado em sua forma bruta que por si só não conduz a uma compreensão
+	       de determinado fato ou situação, como por exemplo: nome de um funcionário;
+
+	INFORMAÇÃO: É um conjunto de dados aos quais seres humanos deram forma para torná-los
+               fignificativos e úteis. Dados dotado de relevância: quantidade de vendas 
+               por produto, total de vendas mensais, numero de votos, etc.
+
+	EXEMPLOS: 5000 crianças é um dado;
+	          5000 crianças foram vacinadas no ano de 2015 é uma informação.
+
+	          Coleta de dados para uma pesquisa eleitoral;
+	          Resultado consolidade ou processado da coleta e informação (qual candidato que teve mais votos)
+
+Conhecimento: Capacidade de resolver problemas, inover e aprender baseando-se em experiÊncias prévias;
+              Esforço de investigação para descobrir aquilo que está oculto, que não esta compreendido ainda;
+              Adquirir conhecimento não é reter informação, mas utilizar esta para desvendar o novo e avançar.
+
+              INFORMAÇÕES tornam-se CONHECIMENTO quando integradas com outras informações em uma forma útil
+              para tomar decisões e determinar ações.

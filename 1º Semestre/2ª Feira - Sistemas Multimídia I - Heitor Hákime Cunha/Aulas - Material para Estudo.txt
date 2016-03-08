@@ -55,10 +55,11 @@ Digitalização: ocorre em 3 etapas:
          Caso contrário, teremos o fenômeno conhecido como ALIASING
 
    - Quantização (quantization)
-      • Transformar em faixas
+      • Transformar em faixas (Nº de faixas = 2 elevado a quantidade de bits)
+        5 faixas = 2³ (8) = 000
 
    - Codificação (coding)
-      • Transformar em binário (utilizando faixas)
+      • Transformar em binário (utilizando faixas - nomear de baixo pra cima)
          A = 00 | B = 01 | C = 10 | D = 11
          C  D  D  C  C  B  A  B  C
          10 11 11 10 10 01 00 01 10
@@ -122,3 +123,45 @@ Sinal = 44 Khz (sem perdas e ótima qualidade)
 Link Upload?
 
 88000 * 16 * 2 = 2.816.000 bits por segundo (/8 /1024) = 343,75 Kbytes
+
+___________________________________________________________________________________________________________
+
+Aula 2016-03-07
+
+Uma trilha de um CD possui cerca de 5KM de comprimento (700MB)
+700MB = QUANTOS MINUTOS?
+
+          700 MBytes = /1024
+      716.800 Kbytes = /1024
+  734.003.200 Bytes  = /8
+5.872.025.600 bits / (2 * 16 * 44100) = 4.161,01s /60 = 69,35m
+
+T = (700 * 1024 * 1024 * 8) / (44100 * 16 * 2) / 60
+T = (5872025600 / 1411200) / 60
+T = 4161,01 / 60
+T = 69,35m
+
+-----------------------------------------------------------------------------------------------------------
+
+Filme de 2 horas:
+
+CD:
+  44100 * 16 * 2 * 7200 = 10.160.640.000 Bits /8
+                          1.270.080.000 Bytes /1024
+                          1.240.312,5 KBytes /1024
+                          1.211,24 MBytes /1024
+                          1,18 GBytes
+
+MP3 (128kbps):
+  128000 * 7200 = 921.600.000 Bits /8
+                  115.200.000 Bytes /1024
+                  112.500 KBytes /1024
+                  109,86 MBytes
+
+BLUERAY (8 canais / 16 bits / 48000 Hz):
+  48000 * 16 * 8 * 7200 = 44.236.800.000 Bits /8
+                          5.529.600.000 Bytes /1024
+                          5.400.000 KBytes /1024
+                          5.273,43 MBytes /1024
+                          5,14 GBytes
+                          

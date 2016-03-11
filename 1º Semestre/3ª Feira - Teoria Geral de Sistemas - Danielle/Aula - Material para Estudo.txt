@@ -35,3 +35,54 @@ Conhecimento: Capacidade de resolver problemas, inover e aprender baseando-se em
 
               INFORMAÇÕES tornam-se CONHECIMENTO quando integradas com outras informações em uma forma útil
               para tomar decisões e determinar ações.
+
+______________________________________________________________________________________________________________________________________
+
+Aula 2016-03-08
+
+Sistema: É um conjunto ou combinações de coisas ou partes, formando um todo complexo ou unitário.
+
+Os sistemas existem dentro de sistemas: Cada sistema é constituído de subistemas e, ao mesmo, faz parte de um sistema maior.
+
+Parâmetros de um Sistema:
+
+				 Entrada ou insumo -> É a força ou impulso de arranque ou de partida do sistema que fonece o material ou energia ou
+						 			  informação para a operação do sistema;
+
+ 	 			  Saída ou Produto -> É a consequência para a qual se reuniram elementos e relações do sistema;
+
+	Transformação ou Processamento -> É o fenômeno que produz mudanças, ou seja, é o mecanismo de conversão das entradas em saídas;
+
+			  Retroação (Feedback) -> Pode ser considerado como a reintrodução de uma saída sob a forma de informação. 
+			  						  É uma regulação retroatica desencadeada por uma nova informação, a qual afetará seu 
+			  						  comportamento subsequente;
+
+		    Controles e avaliações -> Principalmente para verificar se as saídas estão coerentes com os objetivos estabelecidos. 
+		    						  Para controlar e avaliar de maneira adequada é ncessária uma medida de desempenho do sistema, 
+		    						  chamada padrão.
+
+Tipos de Sistemas:
+
+	Sistemas Fechados: São os sistemas que não apresentam intercâmbio com o meio ambiente que os circunda, pois são herméticos a
+					   qualquer influência ambiental;
+
+   	 Sistemas Abertos: São os sitemas que apresentam intercâmbio com o ambiente através de entradas e saídas. Os sitemas abertos
+   	 				   trocam matéria e energia com o meio ambiente;
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Pesquisa - Princípios gerais dos sitemas
+
+Condiraremos os sitemas abertos
+Apesar de cada sistema ter suas particularidades, eles também tem coisas em comum.
+As seguintes características definem os sitemas abertos:
+	1. Importação de energia
+	2. Sistemas são entidades cíclicas
+	3. Entropia e sintropia
+	4. Feedback
+	5. Homeostase dinâmica e estabilidade
+	6. Diferenciação
+	7. Equifinalidade
+
+Entregar em 15/03: PEsquisa o significado de cada uma dessas caracterísitcas para a próxima aula. 
+Entregar em uma folha separada. Individual.

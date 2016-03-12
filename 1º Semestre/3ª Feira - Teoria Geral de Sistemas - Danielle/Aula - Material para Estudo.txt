@@ -71,7 +71,7 @@ Tipos de Sistemas:
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
-Pesquisa - Princípios gerais dos sitemas
+Pesquisa - Princípios gerais dos sistemas
 
 Condiraremos os sitemas abertos
 Apesar de cada sistema ter suas particularidades, eles também tem coisas em comum.
@@ -84,5 +84,5 @@ As seguintes características definem os sitemas abertos:
 	6. Diferenciação
 	7. Equifinalidade
 
-Entregar em 15/03: PEsquisa o significado de cada uma dessas caracterísitcas para a próxima aula. 
+Entregar em 15/03: Pesquisa o significado de cada uma dessas caracterísitcas para a próxima aula. 
 Entregar em uma folha separada. Individual.

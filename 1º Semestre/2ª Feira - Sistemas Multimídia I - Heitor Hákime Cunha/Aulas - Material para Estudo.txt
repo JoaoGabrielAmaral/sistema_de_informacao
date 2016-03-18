@@ -165,3 +165,75 @@ BLUERAY (8 canais / 16 bits / 48000 Hz):
                           5.273,43 MBytes /1024
                           5,14 GBytes
                           
+___________________________________________________________________________________________________________
+
+Aula 2016-03-14
+
+IMAGEM
+
+Definição de Luz: Luz vísivel é uma radiação eletromagnética cujo comprimento de onde está entre 400 e 780 nm
+
+3 propriedades básicas: Brilho; Tonalidade ou Matiz; Saturação ou Pureza;
+
+  Brilho: Sensação visual em função da itensidade da luz refletida
+  Tonalidade: Sensação visual provocada pela combinação das cores básicas
+  Saturação: Quão pura é uma cor?
+
+  RGB é um modelo de cores baseado na emissão de fótons
+  As cores do RGB não devem ser confundidas com CIANO, MAGENTA e AMARELO - CMYK das impressoras
+    CMYK é um modelo baseado na abserção de Fótons
+
+PIXEL: PICture ELement
+  Menor elemento em um dispositivo de exibição ao qual é possíbel atribuir uma cor
+  PIXEL = conjunto de 3 pontos (R, G e B)
+  As cores em cada pixel são representadas por BITS
+    1 bbP = 2¹ = 2 cores (monocromático)
+    1 bbP = 2² = 4 cores
+    8 bbP = 2^8 = 256 cores
+    16 bbP = 2^16 = 65.536 cores
+    25 bbP = 2^24 = 16.8 milhões de cores
+
+Captação da Imagem
+  Conversão AD de uma onda eletromagnética em um conjunto de BITS
+  Uma imagem digital é uma sequencia de 0s e 1s que representam cada PIXEL da imagem
+  CCD - Charge Coupled Device
+  CMOS - Complementary Metal Oxide Semiconductor
+  Diodos fotossensíveis transformam as ondas em corrente elétrica  
+    Os diodos são sensíveis apenas às luzes e não às cores
+    Usa-se um filtro para cada uma das cores primárias
+
+
+Tamanhos = Tbits = Resolução X bitsPorPixel
+
+Em geral, usa-se 24bits por pixel atualmente - 16 milhões de cores
+
+  EX: 1920 x 1080 x 24 = 49766400 bits /8/1024/1024 = 5.92MB
+
+
+JPEG: Joint Photographic Experts Group
+  Compressão em geral com perdas (24 bpp)
+
+TIFF: Tagged Image File Format
+  Com ou sem perdas (24 ou 48 bpp)
+
+RAW: Sem perdas; Imagens médicas; Imagem "crua"
+
+GIF: Graphics Interchange Format
+  8 bpp (256 cores)
+  Suporta animação
+  Sem perdas
+  Patenteado
+
+PNG: Portable Network Graphics
+  Sucessor open-source do padrão GIF
+  24bpp
+  Melhor para edição que JPEG
+
+BMP: Windows BitMap
+
+-----------------------------------------------------------------------------------------------------------
+
+Sistemas de Vídeo Analógico
+
+  Uma câmera é utilizada para captura de imagen e vídeos
+    Frame Rate: >25 quadros por segundo

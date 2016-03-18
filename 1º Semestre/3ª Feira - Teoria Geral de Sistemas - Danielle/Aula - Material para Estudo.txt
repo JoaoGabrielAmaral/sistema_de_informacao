@@ -86,3 +86,21 @@ As seguintes características definem os sitemas abertos:
 
 Entregar em 15/03: Pesquisa o significado de cada uma dessas caracterísitcas para a próxima aula. 
 Entregar em uma folha separada. Individual.
+
+______________________________________________________________________________________________________________________________________
+
+Aula 2016-03-15
+
+Exercício
+
+Escolha um sistema de sua preferência (p. ex. celular, elevador, computador, Habibs, etc) e responda:
+
+1. Por que o item designado é um sistema?
+2. Que tipos de energia são importados pelo sistema, e como é feito esse processo.
+3. Que tipo de transformação é operada dentro do sistema?
+4. Qual é a saída desenvolvida pelo sistema ao seu ambiente?
+5. Como o sistema atinge a entropia negativa?
+6. Se o sistema processa feedbacks, e como ele faz isso?
+7. Como o sistema consegue homeostase dinâmica e estabilidade?
+8. Como o sistema atinge a diferenciação perante sistemas semelhantes?
+9. O sistema possui mais de um modo de fazer a mesma coisa (equifinalidade). Se sim, explique.

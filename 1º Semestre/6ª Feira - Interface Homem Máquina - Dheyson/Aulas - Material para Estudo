@@ -107,3 +107,45 @@ Desenhar este processo utilizando PencilProject todas as telas.
 Uma guia para cada tela.
 Importar para JPEG ou PNG.
 Tem que ser simples, seguro e intuitivo.
+_________________________________________________________________________________________________________________________________
+
+Aula 2016-03-18
+
+1ª - Visibilidade do Status do Sistema ou Feedback
+
+  O sistema deve informar continuadamento ao usuário (utilizador), o status do software após suas ações.
+  Após estudos ficou claro que 10 segundos, é um tempo limite para manter a atenção do usuário focalizada no diálogo.
+  Todas as ações do usuário devem conter um feedback, ou seja, informá-lo sobre o que está acontecendo a cada ação.
+
+2ª - Relação entre software e o mundo real
+
+  Lembre-se de conhecer o MODELO MENTAL do seu cliente antes de criar a interface.
+  A linguagem deve ser apropriada ao ambiente e as pessoas que utili~zarão o sistema.
+  Utilizar linguagem "Muito Técnica e Formal" ou "Pouco Técnica e Informal", podem ser uteis ou inúteis dependendo de cada situação.
+
+3ª - Liberdade e Controle do Usuário
+
+  Descomplique às saídas de emergência de sua interface.
+  Permita o usuário desfazer ou refazer cada ação. Principalmente quando este estiver perdido em algum tipo de situação inexperada.
+  Controle as ações mas faça o usuário acreditar que seja ele quem está no controle de cada ação.
+
+4ª - Identidade ou Consistência
+
+  Utilize a mesma linguagem o tempo todo, ou seja, nunca use palavras diferentes ou ícones diferentes para uma mesma opção.
+  Faça com que interfaces com funções similares sejam padronizadas, facilitando a identificação do usuário.
+
+5ª - Prevenção de Erros
+
+  Por Nielsen: "Ainda melhor que uma boa mensagem de erro é um design cuidadoso que possa prevenir esses erros".
+  Um bom exemplo é manter uma confirmação antes de uma exclusão definitiva, ou converter exclusões físicas para exclusões lógicas.
+
+6ª - Reconhecimento ao invés de recordação
+
+  O sistema deve apresentar opções visuais ao usuário, para que o mesmo não tenha que relembrar textos complexos.
+  O sistema deve permitir que o usuário faça escolhas e tome decisões, sem lembrar comandos específicos ou complexos demais.
+
+7ª - Flexibilidade e Eficiência de Uso (Atalhos):
+
+  O sistema deve atender usuários de níveis diferentes, ou seja, permitir que tanto usuários iniciantes quanto usuários mais experientes realizem funções ao seu tempo.
+  Abreviações, teclas de comando, duplo-clique, etc.
+  Atalhos também servem para agilizar a utilização do software.

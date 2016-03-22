@@ -191,7 +191,7 @@ PIXEL: PICture ELement
     1 bbP = 2² = 4 cores
     8 bbP = 2^8 = 256 cores
     16 bbP = 2^16 = 65.536 cores
-    25 bbP = 2^24 = 16.8 milhões de cores
+    24 bbP = 2^24 = 16.8 milhões de cores
 
 Captação da Imagem
   Conversão AD de uma onda eletromagnética em um conjunto de BITS
@@ -237,3 +237,42 @@ Sistemas de Vídeo Analógico
 
   Uma câmera é utilizada para captura de imagen e vídeos
     Frame Rate: >25 quadros por segundo
+___________________________________________________________________________________________________________
+
+Aula 2016-03-21
+
+SBC - Maratona
+
+-----------------------------------------------------------------------------------------------------------
+
+Exercícios
+
+1) 44100 * 16 * 2 * (2 * 60 * 60) em bits
+
+2) 60000 * 2 * 8 * (24 * 60 * 60) em bits
+
+3)
+
+4) 10000000 * 24 com 16 milhões de cores
+   10000000 * 8 com 256 cores
+
+5) a. 4Hz
+   b. O dobro da frequência máxima do sinal
+   c. 
+   d. Quantização é o processo de desenhar faixas por cima das ondas para efetuar a codificação, quanto maior o número de faixas, melhor será para remontar o sinal parecido com o original.
+   e.
+   f.
+
+6) O padrão RGB é através das cores vermelho (RED), verde (GREEN) e azul (BLUE), e é utilizado nos visores elétricos (monitor, celular, TV, etc). Já o padrão CMYK trabalha com as cores ciano (CYAN), magenta (MAGENTA), amarelo (YELLOW) E K (PRETO), e é utilizado por impressoras.
+
+7.1) O CCD é responsável por capturar a luz que chega até ele, por sua vez, o CCD consegue imprimir em cada pedaço de uma imagem uma certa quantidade de luz. Quanto ao processo realizado pelas câmeras digitas, é aplicado três filtros utilizando o padrão RGB, no final, a imagem que você vê nada mais é que os 3 filtros mesclados.
+
+7.2) O JPEG consegue mesclar blocos de pixel iguais tornando-os em apenas um, conseguindo assim ocupar menos espaço na memória.
+
+8) IPBBPBBI BB
+   14237561089
+
+9) CODECs são pacotes responsáveis por efetuar a leitura de vídeos. Cada CODEC é especializado em ler um formato expecífico de vídeo.
+
+10) 1920 x 1080 x 24 x 30 x (2 x 60 x 60) +
+    44100 x 16 x 2 x (2 x 60 x 60)

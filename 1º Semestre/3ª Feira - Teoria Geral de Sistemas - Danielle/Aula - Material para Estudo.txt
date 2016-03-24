@@ -104,3 +104,39 @@ Escolha um sistema de sua preferência (p. ex. celular, elevador, computador, Ha
 7. Como o sistema consegue homeostase dinâmica e estabilidade?
 8. Como o sistema atinge a diferenciação perante sistemas semelhantes?
 9. O sistema possui mais de um modo de fazer a mesma coisa (equifinalidade). Se sim, explique.
+
+______________________________________________________________________________________________________________________________________
+
+Aula 2016-03-22
+
+Responder as mesma 9 perguntas para um sistema de uma pizzaria.
+
+Sistema: Software para controle de Pizzaria (offline: pedidos via telefone ou presencial)
+
+1. Por que ele é a junção de várias funções (cadastro de pedidos, estoque, etc.) em um único lugar. O software recebe os 
+   dados, armazena e processa as informações e com isso fornece controle para o funcionário.
+
+2. O software trabalha com informãções, e essas informações são importadas pelo usuário quando um cliente faz um pedido, 
+   ou quando o funcionário controla o estoque de produtos, etc.
+
+3. Dados que geram informações, porém, de maneira orgazinada e que o usuário possa controlar toda a sua empresa 
+   (Pizzaria). Por exemplo: O usuário cadastra todo seu estoque no sistema, e o mesmo organiza essas informações amigavelmente
+   para o úsuário ter uma visão melhor de como está seu estoque.
+
+4. O software trabalha todas suas informações exibindo organizadamente em telas separadas para o usuário, cada uma com 
+   seu assunto e objetivo.
+
+5. Através de manutenção de quem desenvolveu o software, para acompanhar o avanço da tecnologia e correções de problemas
+   internos (bugs) do sistema.
+
+6. O sistema informa toda e qualquer operação realizada pelo usuário, seja ela certa ou errada, através de balões 
+   informativos, mensagens e avisos. EX: Ao se cadastrar um produto o sistema exibe uma mensagem para o usuário de que 
+   foi "Cadastrado com Sucesso", ou no caso de alguma falha, uma mensagem amigável mostrando o motivo do erro.
+
+7. Para um software se manter estável, é necessário o mesmo estar hospedado em um servidor que aguente a carga de usuários
+   e informações importadas para o sistema.
+
+8. Possuindo qualidade, uma interface agradável, sem falhas (bugs), de fácil uso e de manunteção de baixo custo para o usuário.
+
+9. Depende, em um software, cada parte dele é definido para efetuar uma função expecífica, sendo inteligente e objetivo, porém,
+   essas funções podem ser executadas de várias maneiras pelo usuário.

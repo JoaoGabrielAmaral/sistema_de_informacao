@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercício 2</title>
+	<meta charset="UTF-8" />
+	<style type="text/css">
+		body {
+			margin: 0;
+			font-family: Arial;
+		}
+
+		@keyframes rotate {
+			0% { transform: rotate(0deg); }
+			100% { transform: rotate(360deg); }
+		}
+
+		table:active {
+			animation: rotate 1s linear infinite;
+		}
+
+		table {
+			width: 40%;
+			margin: 0 auto;
+			border-collapse: collapse;
+			margin-top: 50px;
+			box-shadow: 0 0 3px #A2C125;
+		}
+
+		table thead tr th, table tbody tr td {
+			border: 2px solid #A2C125;
+			padding: 3px 6px;
+		}
+
+		table thead tr {
+			background: #B8D44A;
+		}
+
+		table thead tr th {
+			color: #fff;
+			text-align: left;
+			font-weight: bold;
+		}
+
+		table tbody tr:hover {
+			background: #ddd !important;
+			font-weight: bold;
+		}
+
+		table tbody tr td:nth-child(1) {
+			width: 50px;
+			text-align: center;	
+		}
+
+		table tbody tr:nth-child(odd) {
+			background: #fff;
+		}
+
+		table tbody tr:nth-child(even) {
+			background: #E8F3C6;
+		}
+
+		table tbody tr td button {
+			width: 18px;
+			height: 18px;
+			background-size: 18px 18px;
+			border: 0;
+			background-color: transparent;
+			cursor: pointer;
+			outline: none;
+		}
+
+		table tbody tr td button.excluir {
+			background-image: url('excluir.png');
+		}
+
+		table tbody tr td button.editar {
+			background-image: url('editar.png');
+		}
+	</style>
+
+	<script type="text/javascript">
+
+		var loadTable = function () {
+			var itens = [];
+			for (var i = 1; i <= 10; i++)
+				itens.push({ empresa: "Empresa " + i, contato: "Contato " + i, pais: "Pais " + i });
+
+			var tbody = document.getElementById("table").children[1];
+			for (var i = 0; i < itens.length; i++)
+				tbody.innerHTML = tbody.innerHTML +
+					'<tr>' +
+						'<td>' +
+							'<button type="button" class="excluir"></button>' +
+							'<button type="button" class="editar"></button>' +
+						'</td>' +
+						'<td>' + itens[i].empresa + '</td>' +
+						'<td>' + itens[i].contato + '</td>' +
+						'<td>' + itens[i].pais + '</td>' +
+					'</tr>';
+		};
+
+	</script>
+</head>
+<body onload="loadTable();">
+	<table id="table">
+		<thead>
+			<tr>
+				<th></th>
+				<th style="width: 30%">Empresa</th>
+				<th>Contato</th>
+				<th style="width: 30%">País</th>
+			</tr>
+		</thead>
+		<tbody>
+		</tbody>
+	</table>
+</body>
+</html>

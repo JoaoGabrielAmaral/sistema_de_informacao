@@ -141,7 +141,7 @@ Sistema: Software para controle de Pizzaria (offline: pedidos via telefone ou pr
 9. Depende, em um software, cada parte dele é definido para efetuar uma função expecífica, sendo inteligente e objetivo, porém,
    essas funções podem ser executadas de várias maneiras pelo usuário.
 
-______________________________________________________________________________________________________________________________________
+_____________________________________________________________________25_________________________________________________________________
 
 Aula 2016-03-29
 
@@ -156,3 +156,8 @@ Tarefa em grupo para a próxima aula:
 	Objetivo: Criar um avião em miniatura que seja o mais rápido.
 	Descrever os subsistemas necessários e para que servem.
 	Trazer um modelo para teste
+______________________________________________________________________________________________________________________________________
+
+Aula 2016-04-12
+
+

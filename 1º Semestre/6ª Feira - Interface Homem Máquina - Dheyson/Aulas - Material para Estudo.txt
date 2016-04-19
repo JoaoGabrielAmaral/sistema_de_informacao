@@ -174,5 +174,46 @@ Aula 2016-04-01
   extremamente útil e necessário.
   Uma boa coletânea de informações afim de auxiliar o usuário durante a resolução de dúvidas é muito importe.
 
+_________________________________________________________________________________________________________________________________
 
---------------------------------------------------------------------------------------------------------------------------------
+Aula 2016-04-15
+
+Teoria de Gestalt
+
+  Teoria de Gestalt é uma teoria da psiclogia que busca atra´ves da percepção identificar equilíbrio, simetria, estabilidade, simplicidade e regularidade em um conjunto de imagens, afim de formular determinada informações.
+
+  Uma área da Psicologia que estuda as maneiras que nosso cérebro reconhece formas e imagens através da percepção e sensação de movimento.
+
+  Basicamente, estuda como o ser humano percebe as coisas ao seu redor.
+
+
+  Leis da Teoria de Gestalt
+
+    Semelhança
+    Proximidade
+    Continuidade
+    Pregnância da forma
+    Fechamento
+
+  Semelhança: Defique que os OBJETOS tendem a se agrupar visualmente quando possuem características semelhantes.
+
+  Proximidade: Nosso cérebro tende a sempre agrupar formas que estão próximas, afim de formar o "TODO" ou para formar grupos visando facilitar a concepção visual.
+
+  Continuidade: É a lei da Teoria de Gesltalt que fala sobre, como objetos que seguem uma determinada lógica sem interrupção podem nos causar efeitos visuais inesperados (ou não).
+
+  Pregnância da forma: É a lei que define que como a boa estabilidade das formas, podem facilitar a compreensão do todo.
+    Pregnância: forma e estabilidade de uma percepção, na teoria da forma.
+
+  Fechamento: é alei da Teoria de Gestalt que deixa mais claro, como nosso cérebro pode ser enganado por um simples instinto de definir toda forma visual.
+
+  --------------------------------------------------------------------------------------------------------------------------------------
+
+  Percepção: 
+    1. Faculdade de aprender por meio dos sentidos ou da mente.
+    2. Ato, Efeito ou Capacidade de perceber algo.
+    3. A percepção é amplamente estudade pela psicologia, que define que a percepção é uma organização e interpretação de estímulos 
+       visuais e/ou sensoriais, que foram recebidos por meio de vários sentidos e que possibilita a identificação de objetos ou acontecimentos ao seu redor.
+
+    Em IHM por que é importante compreender o que é percepção:
+      Em IHM precisamos compreender que temos apenas 1 ou 2 sentidos do usuário que podem ser trabalhados, são eles: Visão e Audição.
+      Sendo assim temos que ter a capacidade de passar ao indivíduo a sensação exata do que queremos transmitir.

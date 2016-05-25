@@ -217,3 +217,20 @@ Teoria de Gestalt
     Em IHM por que é importante compreender o que é percepção:
       Em IHM precisamos compreender que temos apenas 1 ou 2 sentidos do usuário que podem ser trabalhados, são eles: Visão e Audição.
       Sendo assim temos que ter a capacidade de passar ao indivíduo a sensação exata do que queremos transmitir.
+
+_________________________________________________________________________________________________________________________________________
+
+Aula 2016-05-20
+
+ Semiótica
+
+  Signo: É a representação de uma determinada coisa, ou seja, representar visualmente algo que conhecemos.
+         É o estudo da comunicação visual.
+         Estuda como que pode uma simples imagem conseguir transparecer tantas informações para um indivíduo.
+
+ Engenharia Semiótica: É uma abordagem da comunicação realizada através de "mão-única", ou seja, 
+                       é a maneira do criador (designer ou desenvolvedor) enviar uma mensagem para o cliente (ou usuário).
+
+    De qual maneira ocorre essa comunicação?
+      - A mensagem é o conteúdo
+      - E a resposta é a interação do usuário com software

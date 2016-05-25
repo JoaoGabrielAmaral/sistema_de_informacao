@@ -1,0 +1,155 @@
+<html>
+<head>
+	<title>Exercício 1</title>
+	<meta charset="UTF-8"/>
+	<script type="text/javascript">
+
+		String.prototype.padLeft = function (length, char) {
+			if (this.length > length)
+				return this.toString();
+
+			char = char || "0";
+			var str = new Array(length + 1).join(char) + this;
+			return str.substr(str.length - length);
+		};
+		Number.prototype.padLeft = function (length, char) {
+			return this.toString().padLeft(length, char);
+		};
+
+		function PegaData() {
+			var dia = document.getElementById("dia").value.padLeft(2),
+				mes = document.getElementById("mes").value.padLeft(2),
+				ano = document.getElementById("ano").value,
+				hora = document.getElementById("hora").value.padLeft(2),
+				minuto = document.getElementById("minuto").value.padLeft(2),
+				segundo = document.getElementById("segundo").value.padLeft(2);
+			
+			if (!/((0[1-9]|[12][0-9]|3[01])\/(0[13578]|1[02])\/[12][0-9]{3})|((0[1-9]|[12][0-9]|30)\/(0[469]|11)\/[12][0-9]{3})|((0[1-9]|1[0-9]|2[0-8])\/02\/[12][0-9]([02468][1235679]|[13579][01345789]))|((0[1-9]|[12][0-9])\/02\/[12][0-9]([02468][048]|[13579][26]))/.test(dia + "/" + mes + "/" + ano)) {
+				document.getElementById("diaSemana").innerHTML = "Data inválida!";
+				return false;
+			}
+
+			if (!/^([0-1][0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]$/.test(hora + ":" + minuto + ":" + segundo)) {
+				document.getElementById("diaSemana").innerHTML = "Hora inválida!";
+				return false;
+			}
+
+			return new Date(ano, +mes - 1, dia, hora, minuto, segundo);
+		}
+
+		function Load() {
+			var inputs = document.getElementsByTagName("input");
+			for (var i = 0; i < inputs.length; i++)
+				if (inputs[i].type == "number"){
+					inputs[i].onmouseup = inputs[i].onblur = inputs[i].onkeyup = DiaSemana;
+					inputs[i].oninput = function () {
+					    if (this.value.length > this.maxLength)
+					        this.value = this.value.slice(0, this.maxLength); 
+				    	
+					    if (this.value == this.max) {
+					    	this.value = this.min;
+							var next;
+							for (var i = 0; i < inputs.length; i++)
+								if (inputs[i].getAttribute("data-index") == +this.getAttribute("data-index") + 1)
+									next = inputs[i];
+
+							if (next) {
+								next.value = +next.value + 1;
+								next.oninput();
+							}
+					    }
+					}
+				}
+
+			var data = new Date();
+			document.getElementById("dia").value = data.getDate();
+			document.getElementById("mes").value = (data.getMonth() + 1);
+			document.getElementById("ano").value = data.getFullYear();
+			document.getElementById("hora").value = data.getHours();
+			document.getElementById("minuto").value = data.getMinutes();
+			document.getElementById("segundo").value = data.getSeconds();
+
+			DiaSemana();
+			getDataAtual();
+		}
+
+		function DiaSemana() {
+			var data = PegaData();
+			if (!data)
+				return false;
+
+			var	hour = data.getHours(),
+				dayOfWeek = data.getDay(),
+				nameDayOfWeek = "";
+
+			//Dia da Semana
+			switch (dayOfWeek) {
+				case 0: nameDayOfWeek = "Domingo"; break;
+				case 1: nameDayOfWeek = "Segunda-Feira"; break;
+				case 2: nameDayOfWeek = "Terça-Feira"; break;
+				case 3: nameDayOfWeek = "Quarta-Feira"; break;
+				case 4: nameDayOfWeek = "Quinta-Feira"; break;
+				case 5: nameDayOfWeek = "Sexta-Feira"; break;
+				case 6: nameDayOfWeek = "Sábado"; break;
+				default: nameDayOfWeek = "Desconhecido!"; break;
+			}
+
+			//Momento do Dia
+			var moment = hour < 12 ? "Bom Dia" : hour < 18 ? "Boa Tarde" : "Boa Noite";
+
+			document.getElementById("diaSemana").innerHTML = nameDayOfWeek + " - " + moment + "!";
+		}
+
+		var getDataAtual = function () {
+			var now = new Date(),
+				dia = now.getDate().padLeft(2),
+				mes = (+now.getMonth() - 1).padLeft(2),
+				ano = now.getFullYear(),
+				hora = now.getHours().padLeft(2),
+				minuto = now.getMinutes().padLeft(2),
+				segundo = now.getSeconds().padLeft(2);
+
+			document.getElementById("dataAtual").innerHTML = "Hora Atual: " + dia + "/" + mes + "/" + ano + " " + hora + ":" + minuto + ":" + segundo;
+		};
+
+		setInterval(getDataAtual, 1000);
+
+	</script>
+
+	<style>
+		* {
+			font-size: 50px;
+			text-align: center;
+			font-family: Consolas;
+			color: #eee;
+			text-shadow: 1px 1px 3px #000;
+		}
+
+		div {
+			width: 100%;
+		}
+
+		input[type="number"] {
+			width: 90px;
+			border-radius: 10px;
+			border: 2px solid #ddd;
+			box-shadow: 0 0 2px #ddd;
+			outline: none;
+			box-shadow: inset 1px 1px 4px #ddd;
+		}
+
+	</style>
+</head>
+<body onload="Load()">
+	<div>
+		<input type="number" id="dia" min="1" max="32" maxlength="2" data-index="3" />/
+		<input type="number" id="mes" min="1" max="13" maxlength="2" data-index="4" />/
+		<input type="number" id="ano" min="1900" max="2999" maxlength="4" data-index="5" style="width: 150px" />
+		<input type="number" id="hora" min="0" max="24" maxlength="2" data-index="2" />:
+		<input type="number" id="minuto" min="0" max="60" maxlength="2" data-index="1" />:
+		<input type="number" id="segundo" min="0" max="60" maxlength="2" data-index="0" />
+		<p id="diaSemana"></p>
+		<p id="dataAtual"></p>
+	</div>
+</body>
+</html>

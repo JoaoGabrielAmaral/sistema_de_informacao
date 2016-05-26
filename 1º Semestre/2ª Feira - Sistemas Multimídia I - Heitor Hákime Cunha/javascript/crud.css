@@ -7,16 +7,19 @@ body {
 
 .container {
 	max-width: 1024px;
+	width: 100%;
 	margin: 0 auto;
 	box-shadow: 0 0 2px #000;
 	border-radius: 3px;
 	padding: 20px;
+	box-sizing: border-box;
 	background: #FFF;
 }
 
 .grid {
 	width: 100%;
 	border-collapse: collapse;
+	box-shadow: 0 0 3px #000;
 }
 .grid thead tr:last-child {
 	border-bottom: 1px solid #000;
@@ -94,7 +97,6 @@ button.crud:active {
 }
 
 fieldset.crud {
-	display: none;
 	border: 0;
 	box-shadow: 0 0 3px #BBB;
 	border-radius: 3px;
@@ -117,9 +119,10 @@ fieldset.crud div.crud-row label {
 	box-sizing: border-box;
 }
 fieldset.crud div.crud-row input[type=text] {
-	border: 1px solid #ddd;
+	border: 1px solid #DDD;
 	border-radius: 2px;
-	width: 500px;
+	max-width: 500px;
+	width: 100%;
 	padding: 7px 5px;
 	outline: none;
 }
@@ -127,6 +130,45 @@ fieldset.crud div.crud-row input[type=text]:focus {
 	box-shadow: 0 0 1px lightblue;
 }
 
+@media screen and (max-width: 804px) {
+	fieldset.crud div.crud-row label {
+		text-align: left;
+		padding: 0;
+	}
+}
+
 form.crud {
 	margin: 0;
+}
+
+div.detail {
+    width: 220px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border: 1px solid #DDD;
+    box-shadow: 0 0 7px #000, inset 0 0 2px #FFF;
+    z-index: 9999;
+    background-color: #FF7676;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #3A3A3A;
+    opacity: 0.9;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+div.detail:hover {
+    opacity: 1;
+}
+div.detail.hide {
+	right: -270px;
+	opacity: 0.1;
+}
+
+div.section {
+	
+}
+div.section.hide {
+	display: none;
 }

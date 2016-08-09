@@ -1,0 +1,56 @@
+Teoria dos Conjuntos
+
+Quando falamos de conjuntos, relação de Pertinência e elementos, todos são considerados conceitos primitivos, isto é, 
+não possui uma definição própria. Exemplos de conjuntos:
+
+a) Habitantes de uma cidade
+b) De carros de uma garagem
+c) De estrelas da Via-Lactea, etc.
+
+Para trabalhar com conjuntos, utilizamos sempre letras maiúsculas do alfabeto.
+
+EX: N = { 0,1,2,3,... }
+    Q = { a,e,i,o,u }
+
+Quando trabalhamos com elementos sempre utilizamos letras minúsculas do nosso alfabeto.
+Quando relacionamos elementos com conjuntos, utilizamos os símbolos:
+
+∈ - Pertence
+∉ - Não Pertence
+Então "x ∈ A" ou "x ∉ b" 
+
+Quando relacionamos conjuntos com conjuntos utilizamos os símbolos:
+
+⊂ - Está Contido
+⊂/ - Não está Contido
+⊂(invertido) - Contém
+C(invertido)/ - Não Contém
+Então "A ⊂ B" ou "B C(invertido) A"
+
+------------------------------------------------------------------------------------------------------------------------------
+
+Operações com conjuntos
+
+Chamamos de "A ∪ B", o conjunto formado por todos os elementos de A ou de B 
+"A ∪ B" = { x | x∈A /\ x∈B }
+
+Exemplos:
+A = { 0,1,2,3,4 } e B = { 4,5,6 }
+A∪B = { 1,2,3,4,5,6 }
+
+------------------------------------------------------------------------------------------------------------------------------
+
+Chamamos de intersecção A∩B, o conjunto formado pelos elementos comuns entre A e B
+A∩B = { x | x∈A /\ x∈B }
+
+Exemplos:
+A = { 2,4,5,6 } e B = { 0,2,4 }
+A∩B = { 2,4 }
+
+------------------------------------------------------------------------------------------------------------------------------
+
+Chamamos de diferença entre A e B (A - B) os elementos que pertencem a A e não pertencem a B.
+A = { 0,1,2,3,4 } e B = { 3,4,5,6 }
+
+A-B = {  }
+B-A = {  }

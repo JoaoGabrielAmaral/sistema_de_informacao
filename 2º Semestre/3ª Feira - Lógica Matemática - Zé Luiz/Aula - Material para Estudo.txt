@@ -52,5 +52,36 @@ A∩B = { 2,4 }
 Chamamos de diferença entre A e B (A - B) os elementos que pertencem a A e não pertencem a B.
 A = { 0,1,2,3,4 } e B = { 3,4,5,6 }
 
-A-B = {  }
-B-A = {  }
+A-B = { 0,1,2 }
+B-A = { 5,6 }
+
+------------------------------------------------------------------------------------------------------------------------------
+
+Complementar
+
+Dados os conjuntos A e B em que A⊂B, chamamos de complementar de A em B (⊂ab) o conjunto formado pelos elementos que 
+pertencem a B e não pertencem a A
+A⊂B => Cab = B-A
+
+Exemplos:
+A = { 0,1,2,3 } e B = { 3,4,5,6 }
+Calcular: ⊂ab e ⊂ba
+
+⊂ab = B - A { 4,5,6 }
+⊂ba = A - B { 0.1.2 }
+
+------------------------------------------------------------------------------------------------------------------------------
+
+Números de elementos da união de conjuntos:
+
+Sendo N(A) o número de elementos do conjunto A, N(B) o número de elementos do conjunto B, temos:
+N(A∪B) = N(A) + N(B) - N(A∩B)
+
+Exemplo:
+
+  N(A) = 5
+  N(B) = 5
+N(A∩B) = 2
+
+N(A∩B) = 5 + 5 - 2
+N(A∩B) = 8

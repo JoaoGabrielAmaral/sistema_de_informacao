@@ -85,3 +85,42 @@ N(A∩B) = 2
 
 N(A∩B) = 5 + 5 - 2
 N(A∩B) = 8
+
+------------------------------------------------------------------------------------------------------------------------------
+
+EXERCÍCIOS
+
+1 - Sendo A = { x∈z / (x-3)(x+4)(x-5)(2x-4) = 0 } e B { x∈n / x - 5x + 6 = 0 }
+
+a) Determine os elementos de A
+b) Determine os elementos de B
+
+2 - Se A = { 1,2,3,4,5 }, B = { 2,3,7 } e C = { 2,4,6 }, calcule:
+
+a) A∪B
+b) A∩B
+c) (A∪B)∩(B∪C)
+
+3 - Se A = { 1,2,3,4,5 }, B = { 2,3,6 } e C = { 1,2,4 }, encontre:
+
+a) B-C
+b) Cca
+c) Cab
+
+4 - Determine n(D∪M), sendo D = { 1,2,3,4,6,8,12,24 } e M = { 3,6,9,12,15,18,21,24 }, coloque no diagrama de Venn Euler.
+
+5 - Em uma universidade, 80% dos alunos leem o jornal A e 60% o jornal B. Sabendo que todo aluno lê pelo menos um dos jornais,
+qual o percentual de alunos que leem ambos os jornais?
+
+6 - Numa turma de 42 alunos, o professor perguntou: "Quem é torcedor do Flamengo?". 36 levantaram o braço. A seguir perguntou:
+"Quem é nascido na cidade do Rio de Janeiro?". 28 levantaram o braço. Sabendo que nenhum aluno deixou de levantar o braço,
+vamos determinar quantos alunos são flameguistas e cariocas.
+
+7 - Numa classe de 30 alunos, 16 gostam de matemática e 20 gostam de história. O número de alunos desta classe que gostam de 
+matemática e história é:
+
+8 - Num grupo de estudantes, 80% estudam inglês, 40% estudam francês e 10% não estudam nenhuma dessas línguas. Qual é o
+percentual de alunos que estudam ambas as línguas?
+
+9 - O dono de um canil vacinou todos os seus cães, sendo que, 80% contra paravirose e 60% contra cinomose. Determine o 
+percentual de animais que foram vacinados contra as duas doenças?

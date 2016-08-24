@@ -124,3 +124,132 @@ percentual de alunos que estudam ambas as línguas?
 
 9 - O dono de um canil vacinou todos os seus cães, sendo que, 80% contra paravirose e 60% contra cinomose. Determine o 
 percentual de animais que foram vacinados contra as duas doenças?
+
+_________________________________________________________________________________________________________________________________
+
+Conjuntos Numéricos
+
+a) Números Naturais (N)
+
+N = { 0,1,2,3,... } N = números positivos
+N* = { 1,2,3... } (N* = não possui 0)
+
+b) Números inteiros (Z)
+
+Z = { ... -3,-2,-1,0,1,2,3... }
+Z* = { ... -3,-2,-1,1,2,3... }
+
+c) Números Racionais (Q)
+
+Q = { x|x = a/b, a e b ∈ Z e b ≠ 0 }
+
+Exemplos:
+
+  6 ∈ Q pois 6/1 = 6
+0,5 ∈ Q pois 0,5 = 1/2
+  _            _
+0,5 ∈ Q pois 0,5 = 5/9
+
+d) Números Irracionais (Q')
+
+Q' { x|x != a/b, a,b ∈ Z e b ≠ 0 }
+
+Exemplo:
+
+√2 = 1,4142...
+π = 3.141516...
+√3 = 1,7375...
+
+e) Conjuntos dos Reais (R)
+
+R = Q U Q'
+
+------------------------------------------------------------------------------------------------------------------------------
+
+Princípio da indução finita
+
+O método de indução finita é um prodecimento matemático, para provar propriedades matemáticas se é verdadeiro ou falso.
+É um método bastante utilizado e eficaz, na geometria, algebra, etc.
+Trata-se de um tipo de demonstração que pode aparecer em qualquer domínio da matemática. Para sua resolução vamos considerar, 
+trabalhando com o conjunto dos naturais.
+
+N = { 0,1,2,3... }
+
+Exemplo
+a) Somando os números ímpares (n²):
+  1 = 1
+  1 + 3 = 4
+  1 + 3 + 5 = 0
+  1 + 3 + 5 + 7 + 16
+  1 + 3 + 5 + 7 + 9 = 25
+
+-------------------------------------
+
+1) Verifique a sequência se é verdadeira utilizando o princípio da indução finita
+
+1 + 3 + 5 + ... + (2n - 1) = n²
+
+2n - 1 = n²
+2 - 1 = 1²
+1 = 1
+
+Princípio da indução
+
+Vou trocar n por k
+1 + 3 + 5 + ... + (2k - 1) = k²
+
+Vou trocar por k + 1
+1 + 3 + 5 + ... + (2k - 1) + 2k + 1 = (k + 1)²
+k² + 2k + 1 = (k + 1)²
+k² + 2k + 1 = k² + 2k + 1
+
+
+2) 1 + 2 + 3 + 4 + ... + n = n(n + 1) / 2, ∀n ∈ N*
+
+n = n(n + 1) / 2
+1 = 1(2) / 2
+1 = 2 / 2
+1 = 1 (V)
+
+k + 1 = (k + 1)((k + 2)) / 2
+(k(k + 1) / 2) + k + 1 = (k + 1)(k + 2) / 2
+(k² + k / 2) + k + 1 = (k² + 2k + k + 2) / 2   --aplica mínimo múltiplo comum
+
+(k² + k + 2(k + 1) / 2 = (k² + 3k + 2) / 2
+
+(k² + k + 2k + 2) / 2 = (k² + 3k + 2) / 2
+(k² + 3k + 2) / 2 = (k¹ + 3k + 2) / 2
+
+-------------------------------------
+
+3) Utilizar a PIF
+
+a) 1² + 2² + ... + n² = (n(n + 1)(2n + 1)) / 6
+
+1 = 1(2)(3) / 6
+1 = 6/6
+1 = 1 (V)
+
+1² + 2² + ... + k² = (k(k + 1)(2k + 1)) / 6
+
+k2 + (k + 1)² = ((k + 1)(k + 2)(2k + 3)) / 6
+
+(k(k + 1)(2k + 1)) / 6 + (k + 1)²      = (k + 1)(k + 2)(2k + 3)
+((k² + k)(2k + 1)) / 6 + (k² + 2k + 1) = (k² + 2k + k + 2)(2k + 3)) / 6
+(2k³ + k² + 2k² + k + 6k² 12k + 6) / 6 = (2k³ + 3k² + 4k² + 6k + 2k² + 3k + 4k + 6) / 6  //Aplicou MMC
+(2k³ + 9k² + 13k + 6) / 6              = (2k³ + 9k² + 13k + 6) / 6
+VERDADEIRO
+                        n        n
+b) Provar que 3 divide 5 + 2 * 11
+
+5¹ + 2 * 11¹
+5 + 22
+27
+27 / 3 = 9 (V)
+
+c) Provar que 2^n > n², para toda n >= 5
+d) Calcular 2n + 1 < 2^n, A(invertido) n => 3
+e) Calcular a PIF 0 + 7 + 14 + ... + 7n = (7n² + 7n) / 2
+f) Calcular o PIF 1/2¹ + 1/2² + 1/2³ + ... + 1/2^n = 1 - 1/2^n
+g) Calcular o PIF 1 + 2 + 3 + 4 + ... + n = (n(n + 1)) / 2, A(invertido)n >= 1
+h) Calcular o PIF 1³ + 2³ + 3³ + ... + n³ = (n²(n + 1)²) / 4 | n >= 1

@@ -253,3 +253,6 @@ e) Calcular a PIF 0 + 7 + 14 + ... + 7n = (7n² + 7n) / 2
 f) Calcular o PIF 1/2¹ + 1/2² + 1/2³ + ... + 1/2^n = 1 - 1/2^n
 g) Calcular o PIF 1 + 2 + 3 + 4 + ... + n = (n(n + 1)) / 2, A(invertido)n >= 1
 h) Calcular o PIF 1³ + 2³ + 3³ + ... + n³ = (n²(n + 1)²) / 4 | n >= 1
+-------------------------------
+i) 1³ + 3³ + 5³ + ... + (2n + 1)² = n²(2n² - 1), A(invertido) >= 1
+j) 2²n - 1 é difivísivel por 3 (n > 0)
